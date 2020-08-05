@@ -6,8 +6,10 @@ import (
 )
 
 func main() {
-	ts1 := int64(1596098534043317)
+	ts1 := int64(418515433628106755)
 	t1 := TSOToRoughTime(ts1)
+
+	time.Now().Unix()
 
 	fmt.Println(t1.String())
 }
